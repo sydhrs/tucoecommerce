@@ -7,7 +7,7 @@ import CurrencyIcon from "../currency-overlay/CurrencyIcon.js";
 import "./header.css";
 import inactiveHamburger from "../../assets/images/inactive-hamburger.png";
 import activeHamburger from "../../assets/images/active-hamburger.png";
-import logo from '../../assets/images/tuco.svg'
+import Logo from "../Logo";
 const Navigation = ({ allCategories,
   changeCategory,
   activeCategory,
@@ -39,7 +39,7 @@ const Navigation = ({ allCategories,
             closeMenu();
           }}
           className="header-one">
-          <img src={logo} alt={'logo'}/>
+          <Logo />
         </NavLink>
         <CategoryMenu
           allCategories={allCategories}
