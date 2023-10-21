@@ -11,7 +11,7 @@ const Checkout = ({ setOrderFormValue }) => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        document.title = "Checkout | Shopping Time";
+        document.title = "Checkout | Tuco";
     }, []);
     const setStep = (step, validationStep) => {
         setFormErrors(validateForm(formValues, validationStep));

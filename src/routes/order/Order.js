@@ -9,7 +9,7 @@ const Order = ({ orderFormValue, cartItems, selectedCurrency, clearCart }) => {
     const [showConfirmation, setShowConfirmation] = useState(false);
     const navigate = useNavigate();
     useEffect(() => {
-        document.title = "Order summary | Shopping Time";
+        document.title = "Order summary | Tuco";
     }, []);
 
     const handlePrint = () => {
@@ -38,7 +38,7 @@ const Order = ({ orderFormValue, cartItems, selectedCurrency, clearCart }) => {
             <section className="order-success">
                 <p>Dear {orderFormValue.firstname} {orderFormValue.lastname},</p>
                 <p>
-                    Your order has been received successfully at Shopping Time. We're thrilled that you've chosen us for your fashion needs. Your style journey is about to begin!
+                    Your order has been received successfully at Tuco. We're thrilled that you've chosen us for your fashion needs. Your style journey is about to begin!
                 </p>
                 <h3> Order Details:</h3>
                 <ul className="order-details">
@@ -70,7 +70,7 @@ const Order = ({ orderFormValue, cartItems, selectedCurrency, clearCart }) => {
                 <p>  Happy Shopping!
                 </p>
                 <p>Warm regards, <br />
-                    The Shopping Time Team</p>
+                    The Tuco Team</p>
             </section>
             <section className="order-buttons">
                 <button className="print" onClick={handlePrint} >Print</button>

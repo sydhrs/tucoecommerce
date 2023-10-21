@@ -6,7 +6,7 @@ import { ResetLocation } from "../../helpers/ResetLocation";
 
 const Landing = ({ changeCategory }) => {
   useEffect(() => {
-    document.title = "Shopping Time";
+    document.title = "Tuco";
   }, []);
   return (
     <main className="landing">

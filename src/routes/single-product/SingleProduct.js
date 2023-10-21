@@ -13,7 +13,7 @@ const SingleProduct = ({ selectedCurrency, handleAddProduct, alertMessageMain })
   const [priceAmount, setPriceAmount] = useState("");
 
   useEffect(() => {
-    document.title = `${singleProduct.name} | Shopping Time`;
+    document.title = `${singleProduct.name} | Tuco`;
   }, [singleProduct]);
 
   const filterCurrency = (singleProduct, selectedCurrency) => {

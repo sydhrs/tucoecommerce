@@ -19,7 +19,7 @@ const AllProducts = ({ allProducts,
   const [activeItem, setActiveItem] = useState(null);
 
   useEffect(() => {
-    document.title = `${activeCategory.charAt(0).toUpperCase() + activeCategory.slice(1)} | Shopping Time`;
+    document.title = `${activeCategory.charAt(0).toUpperCase() + activeCategory.slice(1)} | Tuco`;
   }, [activeCategory]);
 
   const toggleQuickCart = () => {

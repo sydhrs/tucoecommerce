@@ -13,7 +13,7 @@ const Cart = ({ selectedCurrency,
     selectedAttributes,
     productsQuantity, clearCart }) => {
     useEffect(() => {
-        document.title = "Cart | Shopping Time";
+        document.title = "Cart | Tuco";
     }, []);
     return (
         <main>
