@@ -11,6 +11,7 @@ import Landing from "./routes/landing/Landing.js";
 import Checkout from "./routes/checkout/Checkout";
 import NotFound from "./routes/not-found/NotFound";
 import Order from "./routes/order/Order";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   const [allCategories, setAllCategories] = useState([]);
@@ -373,6 +374,7 @@ const App = () => {
               <NotFound />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
   );
 }
